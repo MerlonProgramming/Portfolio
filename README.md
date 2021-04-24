@@ -2,7 +2,7 @@
 
 Thanks for downloading Wicked Templates!.
 
-![Wicked Templates - FREE 2](https://d33wubrfki0l68.cloudfront.net/991c46f5b88eb58495ef149534764b697f156840/df314/thumbnails/free2.webp)
+![Wicked Templates - FREE 2](https://d33wubrfki0l68.cloudfront.net/72016b4eb97a2db0c562594f081a7d5d3d671e66/12675/thumbnails/free2.webp)
 
 This repo is the scaffolding we use at [Wicked Templates](https://wickedtemplates.com) to create new
 Tailwind based HTML templates.
