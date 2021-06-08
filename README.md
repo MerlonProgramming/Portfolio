@@ -1,4 +1,4 @@
-![banner](https://github.com/MerlonProgramming/Portafolio/blob/main/descarga.jpg)
+![banner](https://github.com/MerlonProgramming/Portfolio/blob/main/descarga.jpg)
 
 # MerlonProgramming Portfolio 🤗
 
