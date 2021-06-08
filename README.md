@@ -1,52 +1,60 @@
-# Wicked Templates - FREE 2
+![banner](https://github.com/MerlonProgramming/Portafolio/blob/main/descarga.jpg)
 
-Thanks for downloading Wicked Templates!.
+# MerlonProgramming Portfolio 🤗
 
-![Wicked Templates - FREE 2](https://d33wubrfki0l68.cloudfront.net/72016b4eb97a2db0c562594f081a7d5d3d671e66/12675/thumbnails/free2.webp)
+Hi 👋🏻, this is my first portfolio, I hope whoever is reading this likes it. Thanks ✌🏻✌🏻
 
-This repo is the scaffolding we use at [Wicked Templates](https://wickedtemplates.com) to create new
-Tailwind based HTML templates.
+## Getting Started 🚀
 
-We mainly use plain HTML with Tailwind classes to create stunning eye-catching templates for landing pages
-marketing pages.
+We can execute `npm start` to compile our Handlebars templates into plain HTML. A development
+server will be launch and you will be able to see the result webpage in the URL [http://localhost:4000](http://localhost:4000/).
+remember **npm start** for deploy the project.
 
-This scaffolding uses [gulp](https://gulpjs.com/) to create workflows to make esier the development. These
-are other of the dependencies and technologies we use:
+### Pre-requisites 📋
+
+First of all we need to have [nodejs](https://nodejs.org/) installed in our system. Then, we can execute
+`npm install` to install this repo's dependencies.
+
+### Installation 🔧
+
+_you need to run to get a development environment running_.
+
+```
+insert command **git clone** and copy link of repositorie
+```
+
+```
+install dependencies **node modules** and execute with **npm start**
+```
+
+## Built with 🛠️
+
+_This scaffolding uses [gulp](https://gulpjs.com/) to create workflows to make esier the development. These
+are other of the dependencies and technologies we use_:
 
 -    [Tailwind CSS](https://tailwindcss.com/) as utility CSS framework
 -    [Handlebars](https://handlebarsjs.com/) as template engine to join our layouts, partials into pages.
 -    [Imagemin](https://github.com/imagemin/imagemin) to minify images and optimice them for web.
 
-## Getting started
+## Contributing 🖇️
 
-First of all we need to have [nodejs](https://nodejs.org/) installed in our system. Then, we can execute
-`npm install` to install this repo's dependencies.
+Please read the [CONTRIBUTING.md](https://github.com/michael-andreuzza) for details of our code.
 
-Later on, we can execute `npm start` to compile our Handlebars templates into plain HTML. A development
-server will be launch and you will be able to see the result webpage in the URL [http://localhost:4000](http://localhost:4000/).
+## Authors ✒️
 
-## Source scaffolding structure
+Mention all those who helped to raise the project from its beginnings.
 
-The source code is located in the directory `src`. Inside it there are the following folders:
+-    **Michael Andreuzza** - _Initial Work_ - [michael-andreuzza](https://github.com/michael-andreuzza)
+-    **MerlonProgramming** - _Change of portfolio_ - [MerlonProgramming](https://github.com/MerlonProgramming)
 
--    **css**: Here is just one file named `app.css` and inside we are just importing Tailwind. If you want to
-     any custom CSS rule you add it to that file.
--    **layouts**: here we can store our different layouts for our different websites. These are the structures
-     with common parts between different pages, including things links to **externals assets** like **fonts**,
-     or components like navigation or footer.
--    **partials**: here we will store snippets of HTML like UI components. Things like **buttons**, **cards**,
-     **navbars**, or any other UI component.
+You can also look at the list of all [contributors](https://github.com/your/project/contributors) who have participated in this project.
 
-In the root of `src` we will store full pages importing our layouts, and partials. In our example there is just
-on file named `index.html` but you can create others and add links to them in your navigation.
+## Expressions of Gratitude 🎁
 
-If you have any doubt about how to use this code, you can reach use in twitter like [@Mike_Andreuzza](https://twitter.com/Mike_Andreuzza)
-and [@g_perales](https://twitter.com/g_perales).
+-    Tell others about this project 📢
+-    Invite a beer 🍺 or a coffee ☕.
+-    Thank You to michael-andreuzza for the template for my Portfolio 🤓.
 
-## Deploying to production
+---
 
-To deploy your website you just have to execute `npm run build` and upload the result in the `/dist` folder
-to your server.
-
-If you are going to use a git repo, we highly recommend to use [Netlify](https://www.netlify.com/) as it's free
-and pretty easy to use.
+⌨️ with ❤️ for [MerlonProgramming](https://github.com/MerlonProgramming) 😊
