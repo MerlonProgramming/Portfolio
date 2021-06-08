@@ -1,10 +1,13 @@
-<div class="w-full mt-4 mb-4 text-black bg-white shadow lg:mb-8 rounded-xl ">
+<div class="w-full text-black bg-white shadow lg:mb-8 rounded-xl">
     <div x-data="{ open: false }"
         class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div class="flex flex-row items-center justify-between p-4">
             <a href="./index.html"
                 class='text-lg font-semibold rounded-lg tracking-widestuppercase focus:outline-none focus:shadow-outline'>
-            {{>logo}}
+                {{>logo}}
+            </a>
+            <a href="./index.html" class="px-4">
+                MerlonProgramming
             </a>
             <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
                 <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
@@ -21,10 +24,21 @@
             class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
             <a class='px-4 py-2 mt-2 text-base font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline'
                 href="./index.html">Home</a>
-                <a class='px-4 py-2 mt-2 text-base font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline'
-                    href="./blog.html">Blog</a>
+            <a class='px-4 py-2 mt-2 text-base font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline'
+                href="./blog.html">Blog</a>
             <a class='px-4 py-2 mt-2 text-base font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline'
                 href="./blogpost.html">Blogpost</a>
+            <a class='dark:bg-gray-800 px-5 py-3 mt-3 text-base font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline'
+                href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+                    focusable="false" width="1em" height="1em"
+                    style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20">
+                    <path
+                        d="M13.719 1.8A8.759 8.759 0 1 1 1.8 13.719c3.335 1.867 7.633 1.387 10.469-1.449c2.837-2.837 3.318-7.134 1.45-10.47z"
+                        fill="#ffffff" />
+                </svg>
+            </a>
         </nav>
     </div>
 </div>
