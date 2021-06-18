@@ -1,46 +1,219 @@
 <div class="w-full text-black bg-white shadow rounded-xl mb-4">
-    <div x-data="{ open: false }"
-        class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
-        <div class="flex flex-row items-center justify-between p-4">
-            <a href="./index.html"
-                class='text-lg font-semibold rounded-lg tracking-widestuppercase focus:outline-none focus:shadow-outline'>
-                {{>logo}}
-            </a>
-            <a href="./index.html" class="px-4 ml-4">
-                MerlonProgramming
-            </a>
-            <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
-                <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
-                    <path x-show="!open" fill-rule="evenodd"
-                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-                        clip-rule="evenodd"></path>
-                    <path x-show="open" fill-rule="evenodd"
-                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                        clip-rule="evenodd"></path>
-                </svg>
-            </button>
-        </div>
-        <nav :class="{'flex': open, 'hidden': !open}"
-            class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
-            <a class='px-4 py-2 mt-2 text-base font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline'
-                href="./index.html">Home</a>
-            <a class='px-4 py-2 mt-2 text-base font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline'
-                href="#">About Us</a>
-            <a class='px-4 py-2 mt-2 text-base font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline'
-                href="#">Services</a>
-            <a class='px-4 py-2 mt-2 text-base font-semibold bg-purple-600 text-white transition duration-500 ease-in-out transform bg-transparent rounded-lg md:mt-0 md:ml-4 focus:shadow-outline shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-purple-200'
-                href="#">Contact Us</a>
-            <a class='dark:bg-gray-800 px-5 py-3 mt-3 text-base font-semibold text-gray-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline'
-                href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-                    focusable="false" width="1em" height="1em"
-                    style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
-                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20">
-                    <path
-                        d="M13.719 1.8A8.759 8.759 0 1 1 1.8 13.719c3.335 1.867 7.633 1.387 10.469-1.449c2.837-2.837 3.318-7.134 1.45-10.47z"
-                        fill="#ffffff" />
-                </svg>
-            </a>
-        </nav>
+  <div
+    x-data="{ open: false }"
+    class="
+      flex flex-col
+      max-w-screen-xl
+      px-4
+      mx-auto
+      md:items-center
+      md:justify-between
+      md:flex-row
+      md:px-6
+      lg:px-8
+    "
+  >
+    <div class="flex flex-row items-center justify-between p-4">
+      <a
+        href="./index.html"
+        class="
+          text-lg
+          font-semibold
+          rounded-lg
+          tracking-widestuppercase
+          focus:outline-none
+          focus:shadow-outline
+        "
+      >
+        {{>logo}}
+      </a>
+      <a href="./index.html" class="px-4 ml-4"> MerlonProgramming </a>
+      <button
+        class="rounded-lg md:hidden focus:outline-none focus:shadow-outline"
+        @click="open = !open"
+      >
+        <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+          <path
+            x-show="!open"
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+          <path
+            x-show="open"
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
     </div>
+    <nav
+      :class="{'flex': open, 'hidden': !open}"
+      class="
+        flex-col flex-grow
+        hidden
+        pb-4
+        md:pb-0
+        md:flex
+        md:justify-end
+        md:flex-row
+      "
+    >
+      <a
+        class="
+          px-4
+          py-2
+          mt-2
+          text-base
+          font-semibold
+          text-gray-600
+          transition
+          duration-500
+          ease-in-out
+          transform
+          bg-transparent
+          rounded-lg
+          md:mt-0
+          md:ml-4
+          hover:text-gray-900
+          focus:text-gray-900
+          hover:bg-gray-300
+          focus:bg-gray-200
+          focus:outline-none
+          focus:shadow-outline
+        "
+        href="./index.html"
+        >Home</a
+      >
+      <a
+        class="
+          px-4
+          py-2
+          mt-2
+          text-base
+          font-semibold
+          text-gray-600
+          transition
+          duration-500
+          ease-in-out
+          transform
+          bg-transparent
+          rounded-lg
+          md:mt-0
+          md:ml-4
+          hover:text-gray-900
+          focus:text-gray-900
+          hover:bg-gray-300
+          focus:bg-gray-200
+          focus:outline-none
+          focus:shadow-outline
+        "
+        href="#"
+        >About Us</a
+      >
+      <a
+        class="
+          px-4
+          py-2
+          mt-2
+          text-base
+          font-semibold
+          text-gray-600
+          transition
+          duration-500
+          ease-in-out
+          transform
+          bg-transparent
+          rounded-lg
+          md:mt-0
+          md:ml-4
+          hover:text-gray-900
+          focus:text-gray-900
+          hover:bg-gray-300
+          focus:bg-gray-200
+          focus:outline-none
+          focus:shadow-outline
+        "
+        href="#"
+        >Services</a
+      >
+      <a
+        class="
+          px-4
+          py-2
+          mt-2
+          text-base
+          font-semibold
+          bg-purple-600
+          text-white
+          transition
+          duration-500
+          ease-in-out
+          transform
+          bg-transparent
+          rounded-lg
+          md:mt-0
+          md:ml-4
+          focus:shadow-outline
+          shadow-md
+          hover:bg-purple-700
+          focus:outline-none
+          focus:ring-2
+          focus:ring-purple-500
+          focus:ring-offset-2
+          focus:ring-offset-purple-200
+        "
+        href="#"
+        >Contact Us</a
+      >
+      <a
+        class="
+          dark:bg-gray-800
+          px-5
+          py-3
+          mt-3
+          text-base
+          font-semibold
+          text-gray-600
+          transition
+          duration-500
+          ease-in-out
+          transform
+          bg-transparent
+          rounded-lg
+          md:mt-0
+          md:ml-4
+          hover:text-gray-900
+          focus:text-gray-900
+          hover:bg-gray-300
+          focus:bg-gray-200
+          focus:outline-none
+          focus:shadow-outline
+        "
+        href="#"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          aria-hidden="true"
+          focusable="false"
+          width="1em"
+          height="1em"
+          style="
+            -ms-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+          "
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 20 20"
+        >
+          <path
+            d="M13.719 1.8A8.759 8.759 0 1 1 1.8 13.719c3.335 1.867 7.633 1.387 10.469-1.449c2.837-2.837 3.318-7.134 1.45-10.47z"
+            fill="#ffffff"
+          />
+        </svg>
+      </a>
+    </nav>
+  </div>
 </div>
